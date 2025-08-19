@@ -6,4 +6,5 @@ document.getElementById('apply-btn').addEventListener('click', function () {
 function randomHexColor() {
   var random = random;
   // new random here
+  // new random 2
 }

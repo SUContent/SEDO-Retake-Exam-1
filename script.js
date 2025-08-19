@@ -1,3 +1,5 @@
+
+
 // Commit 1 – preserve main handler
 document.getElementById('apply-btn').addEventListener('click',function(){
   var c=document.getElementById('color-input').value;
@@ -11,4 +13,5 @@ function randomHex(){return'#'+Math.floor(Math.random()*0xffffff).toString(16).p
 // Commit 3 – wire random button
 document.getElementById('random-btn').addEventListener('click',function(){
   setBox(randomHex());
+
 });

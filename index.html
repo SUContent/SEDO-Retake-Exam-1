@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Color Picker & Changer</title>
+  <title>Color Picker & Changer (Refactored)</title>
+  <!-- Meta for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body data-version="1.0">
   <div class="app" data-feature="random">
     <h1>Color Picker & Changer</h1>
 
-    <!-- Use fixed color input type -->
+    <!-- Use color input with default value -->
     <input id="color-input" type="color" value="#dddddd" aria-label="Pick a color">
 
     <button id="apply-btn">Apply Color</button>
@@ -23,6 +26,8 @@
     <small class="ver">input bug fixed</small>
 
     <div id="box"></div>
+    <!-- Extra hint for manual typing -->
+    <p class="hint">You can type a named color or #hex.</p>
   </div>
   <script src="script.js"></script>
 </body>

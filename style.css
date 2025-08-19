@@ -4,19 +4,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #f5f5f5
+
 }
 
+/* Commit 3 */
 .app {
   text-align: center
 }
 
 /* Commit 1 – resize color picker */
 #color-input {
-  width: 50px;
-  height: 50px;
-  padding: 0;
-  border: none
+  padding: .5em;
+  width: 200px
+
 }
 
 /* Commit 2 – button active pop */
@@ -26,29 +26,21 @@ body {
   cursor: pointer
 }
 
-#apply-btn:active {
-  transform: scale(.98)
-}
+/* Commit 1 */
 
-/* Commit 3 – input radius */
-#color-input {
-  border-radius: 4px
-
-}
-
-/* Commit 2 – hover shades */
-#apply-btn:hover,
-#random-btn:hover {
-  background: #eee;
-  border-color: #666
-}
-
-/* Commit 3 – subtle border animation */
 #box {
   margin-top: 1em;
   width: 150px;
   height: 150px;
   background: #ddd;
-  border: 1px solid #aaa
+  border: 1px solid #aaa;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .18)
+}
+
+/* Commit 2 */
+.hint {
+  margin-top: .6em;
+  color: #666;
+  font-size: .9em
 
 }

@@ -3,4 +3,5 @@ document.getElementById('apply-btn').addEventListener('click', function () {
   document.getElementById('box').style.backgroundColor = c;
   // refactoring here added
   // refactoring 2 added
+  // refactor 3
 });

@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #f7f8fa
+
 }
 
 /* Commit 3 */
@@ -12,11 +12,14 @@ body {
   text-align: center
 }
 
+/* Commit 1 – resize color picker */
 #color-input {
   padding: .5em;
   width: 200px
+
 }
 
+/* Commit 2 – button active pop */
 #apply-btn {
   padding: .5em 1em;
   margin-left: .5em;
@@ -24,6 +27,7 @@ body {
 }
 
 /* Commit 1 */
+
 #box {
   margin-top: 1em;
   width: 150px;
@@ -38,4 +42,5 @@ body {
   margin-top: .6em;
   color: #666;
   font-size: .9em
+
 }

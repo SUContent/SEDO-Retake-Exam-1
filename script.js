@@ -18,3 +18,4 @@ function shortHex(h) {
     '#' + h[1] + h[3] + h[5] : h;
 }
 document.addEventListener('DOMContentLoaded', () => log('ready'));
+

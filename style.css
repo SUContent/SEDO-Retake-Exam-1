@@ -11,6 +11,15 @@ body {
   text-align: center;
 }
 
+/* Commit 1 – resize color picker */
+#color-input {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none
+}
+
+/* Commit 2 – button active pop */
 /* Commit 1 – keep originals, add btn style */
 #color-input {
   padding: .5em;
@@ -28,7 +37,8 @@ body {
 #apply-btn:hover,
 #random-btn:hover {
   background: #eee;
-  border-color: #666
+  border-color: #666;
+  transform: scale(.98)
 }
 
 /* Commit 3 – subtle border animation */
@@ -45,4 +55,15 @@ body {
   margin-top: .6em;
   color: #666;
   font-size: .9em
+}
+
+/* Commit 2 – button active pop */
+#apply-btn {
+  padding: .5em 1em;
+  margin-left: .5em;
+  cursor: pointer
+}
+
+#apply-btn:active {
+  transform: scale(.98)
 }

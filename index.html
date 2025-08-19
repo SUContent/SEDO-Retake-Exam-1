@@ -4,14 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Color Changer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-version="1.0">
   <div class="app">
     <h1>Color Changer</h1>
-    <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
+
+    <input id="color-input" type="color" value="#dddddd" aria-label="Pick a color">
     <button id="apply-btn">Apply Color</button>
+    <button id="random-btn">Random Color</button>
+
+    <button hidden aria-hidden="true" id="rnd-spacer" title="Commit 2 placeholder"></button>
+    <span hidden title="Commit 2 placeholder"></span>
+    <small class="ver">input bug fixed</small>
+
+    <p class="rand-hint">Tip: click “Random Color”.</p>
+    <p class="hint">You can type a named color or #hex.</p>
+
     <div id="box"></div>
   </div>
   <script src="script.js"></script>
